@@ -16,7 +16,7 @@ The project uses the **yfinance** library to fetch historical stock market data 
 
 ## Why XGBoost is Used
 
-XGBoost (Extreme Gradient Boosting) is used in this project because it is highly effective for **structured and tabular data** such as stock market prices. It can capture **non-linear relationships** between technical indicators and price movement, which are common in financial markets.
+XGBoost  is used in this project because it is highly effective for **structured and tabular data** such as stock market prices. It can capture **non-linear relationships** between technical indicators and price movement, which are common in financial markets.
 
 Additionally, XGBoost provides:
 - High prediction accuracy with relatively small datasets  
@@ -42,10 +42,11 @@ These properties make XGBoost suitable for **short-term directional stock predic
 ## Technologies Used
 
 - **Language:** Python  
-- **Libraries:** pandas, numpy, scikit-learn, xgboost, yfinance  
-- **Framework:** Streamlit  
-- **Machine Learning Algorithm:** XGBoost Classifier  
-- **Type:** Web-based Machine Learning Application  
+- **Data Processing:** Pandas, NumPy  
+- **Machine Learning Library:** XGBoost (Gradient Boosting model), scikit-learn  
+- **Data Source:** yfinance (Yahoo Finance API)  
+- **Web Framework:** Streamlit  
+- **Application Type:** Web-based Machine Learning Application  
 
 ---
 
@@ -61,10 +62,12 @@ These properties make XGBoost suitable for **short-term directional stock predic
 ---
 
 # Disclaimer
-- This project is for **Educational purposes** only and **does not provide financial or investment advice**. 
-- Sole puropse of the porject is to explain the XGBoost Framework to which provides both the **Regression Model (XGBRegressor)** and **Classification Model (XGBClassifer)**
+- This project is intended **strictly for educational purposes** and **does not provide financial, trading, or investment advice**.  
+- The primary objective of this project is to demonstrate the usage of the **XGBoost algorithm**, which supports both **regression models (XGBRegressor)** and **classification models (XGBClassifier)** for predictive analysis.  
 
 ---
+
+##To Clone this Repository
 
 ```bash
 git clone https://github.com/rayfin774/indian-stock-predictor.git
