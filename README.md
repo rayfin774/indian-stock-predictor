@@ -69,6 +69,6 @@ These properties make XGBoost suitable for **short-term directional stock predic
 ##To Clone this Repository
 
 ```bash
-git clone https://github.com/rayfin774/indian-stock-predictor.git
+git clone https://github.com/shreeshtjagga/indian-stock-predictor.git
 cd indian-stock-predictor
 
